@@ -6,7 +6,7 @@
   },
   "builds": [
     { "src": "client/package.json", "use": "@now/static-build" },
-    { "src": "server/index.js", "use": "@now/node-server@0.4.24" }
+    { "src": "server/index.js", "use": "@now/node-server" }
   ],
   "routes": [
     { "src": "/api/?(.*)", "dest": "/server"},
